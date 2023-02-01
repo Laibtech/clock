@@ -1,0 +1,52 @@
+body{
+    background: url(pexels-fwstudio-129731.jpg);
+    
+}
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    height: 30vw;
+    width: 30vw;
+    background: url(clock.png);
+    background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;   
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%; 
+}
+.text{
+    justify-content: center;
+    background-color: rgb(224, 212, 212);
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+h1{
+    font-size: 70px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    color: rgb(0, 0, 0);
+}
+span{
+    color: rgb(116, 1, 224);
+}
